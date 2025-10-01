@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projectile motion grapher</title>
+    <script src="script.js" defer></script>
+</head>
+<body style="padding: 0; margin: 0;">
+    <canvas id="can" style="width: 100vw; height: 70vh;"></canvas>
+    <h3>Input data: </h3>
+    <label for="v">Inital velocity(m/s): </label><input type="number" min="0" name="v" id="v"><br>
+    <label for="a">Angle(°): </label><input type="number" min="0" max="90" name="a" id="a"><br>
+    <label for="g">Gravitational acceleration(m/s²): </label><input type="number"  name="g" id="g"><br>
+    <button id="graph">Graph</button>
+    <table id="results">
+    </table>
+    <button id="dl">Download as image</button>
+</body>
+</html>
