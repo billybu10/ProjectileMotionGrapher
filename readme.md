@@ -1,6 +1,6 @@
 # Projectile motion graph
 
-Simple app that let's you graph projectile motion, and download the graph as image. Uses canvas.
+Simple app that let's you graph projectile motion, and download the graph as image. Uses vanilla js and canvas.
 
 ![](scr.png)
 
